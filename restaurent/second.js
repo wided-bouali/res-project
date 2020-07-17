@@ -34,13 +34,14 @@
        $("#price").click(function(){
             $.each($("input[type='checkbox']:checked"), function(){
                 favorite.push($(this).val());
+                console.log(favorite)
             });
-            console.log(favorite)
+            $('#revenue').html(result()); 
           
         });
        $("#but").click(function(e){
         if (favorite.length>0){
-          alert("you choose: "+favorite.join(,));
+          alert("you choose: "+favorite.join(","));
       }
       else{
       alert("you didn't choose anything");}
@@ -62,5 +63,19 @@
         return total;
     }
 
-  
+  $("#btn1").on("click",function(){
+    $("#drinks").show();
+    $("#salty").hide();
+    $("#sweet").hide();
+  })
 
+$("#btn2").on("click",function(){
+    $("#salty").show();
+    $("#drinks").hide();
+    $("#sweet").hide();
+  })
+$("#btn3").on("click",function(){
+    $("#sweet").show();
+    $("#salty").hide();
+    $("#drinks").hide();
+  })

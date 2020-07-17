@@ -8,9 +8,8 @@ body {
      border: none;
      outline: none;
      padding: 10px 16px;
-     background-color: #f1f1f1;
      cursor: pointer;
-     font-size: 18px;
+     font-size: 60px;
 }
 .first {
      font-family:'Mr Dafoe', cursive;  

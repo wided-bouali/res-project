@@ -1,5 +1,5 @@
 body {
-	background-size: 1350px;
+	background-size: cover;
 	position: relative;
 	top: 70px;
 }
@@ -12,38 +12,73 @@ img {
 	top: 200px;
     left: 250px;
 }
-
-
-.header {
-  text-align: center;
-  padding: 32px;
+summary {
+	font-size: 40px;
 }
-.btn1, .btn2, .btn3 {
+p {
+	background-color: #F0C76A;
+	background-position-x: center;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+a {
   position: relative;
   border: none;
   outline: none;
   padding: 10px 16px;
-  background-color: #F2D284;
-  
-}
-.btn1:hover, .btn2:hover, .btn3:hover {
-  background-color: #F2D284;
-}
+  font-size: 60px;
+  top: -150px;
+  font-weight: bold;
+ }
+ #btn1, #btn2, #btn3{
+ 	cursor: grab;
+ }
+ #btn1 {
+ 	position: relative;
+ 	right: 110px;
+ }
+ #btn2 {
+ 	position: relative;
+ 	right: 20px;
+ }
+ #btn3 {
+ 	position: relative;
+ 	left: 80px;
+ }
 .grey{ 
   color:#F2D284;
   font-size: 80px;
 }
-label, #drink, #salty, #sweet{
-	display:none;
+
+#drinks{
+text-align: justify;
+text-align-last: justify;
+display: none;
+position: relative;
+left: 300px;
+top: -70px;
 }
-li {
-	list-style: none;
+
+#salty{
+text-align: justify;
+text-align-last: justify;
+display: none;
+position: relative;
+left:565px;
+top:-70px;
 }
-#add {
-	position: relative;
-	left: 1200px;
-	top: 320px;
+
+#sweet{
+text-align: justify;
+text-align-last: justify;
+display: none;
+position: relative;
+left:850px;
+top:-70px;
 }
+
 
 
 
