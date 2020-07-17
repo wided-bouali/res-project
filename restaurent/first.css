@@ -1,0 +1,21 @@
+body {
+	background-size: 1000px;
+	background-position: center top;
+}
+#btn {
+     position: relative;
+     top: 350px; 
+     border: none;
+     outline: none;
+     padding: 10px 16px;
+     background-color: #f1f1f1;
+     cursor: pointer;
+     font-size: 18px;
+}
+.first {
+     font-family:'Mr Dafoe', cursive;  
+     position: relative;
+     top: 150px;
+     color: #4F0505;
+     font-size: 50px
+}
